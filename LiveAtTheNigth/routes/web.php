@@ -12,3 +12,10 @@
 */
 
 Route::get('/', 'FrontEndController@index');
+Route::get('/about', 'FrontEndController@about');
+Route::get('/contact', 'FrontEndController@contact');
+Route::get('/signin', 'FrontEndController@signin');
+Route::get('/signup', 'FrontEndController@signup');
+
+
+
