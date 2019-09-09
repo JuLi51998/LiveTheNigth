@@ -101,9 +101,11 @@ nav {
 	height: 60vh;
 }
 .cover img {
-	height: 100%;
+	height: 75%;
 	filter: drop-shadow(0px 5px 3px black);
-	animation: drop 1.5s ease;
+    animation: drop 1.5s ease;
+    max-width: 700px;
+    margin-left: 5rem;
 }
 
 .big-circle {
@@ -137,6 +139,53 @@ nav {
 	right: 20%;
 }
 
+/* inicio de sesion */
+.cont-signin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5rem;
+}
+.cont-signin > div {
+	padding: 4rem 0rem;
+	width: 450px;
+	border-radius: 10px;
+	background-color: rgba(221, 221, 221, 0.719);
+}
+.cont-signin .txt-signin {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.cont-signin .input-signin > div {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-signin .input-signin > div input {
+	padding: 5px 12px;
+    width: 70%;
+	margin: 10px;
+	font-size: 16px;
+}
+.cont-signin .btn-signin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+.cont-signin .btn-signin input {
+	border: 2px solid #c36cbb;
+    background: transparent;
+    color: #c36cbb;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+.cont-signin .btn-signin input:hover {
+	border: 2px solid #c759bc;
+	background: #c36cbb;
+	color: white;
+}
+
 @keyframes drop {
 	0% {
 		opacity: 0;
@@ -148,7 +197,7 @@ nav {
 	}
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1300px) {
 	.presentation {
 		flex-direction: column;
 	}
@@ -163,7 +212,7 @@ nav {
 		font-size: 18px;
 	}
 	.cta {
-		padding: 10px 0px 0px 0px;
+		padding-top: 60px;
 	}
 	.laptop-select {
 		bottom: 5%;
@@ -172,7 +221,9 @@ nav {
 		transform: translate(50%, 5%);
 	}
 	.cover img {
-		height: 80%;
+        height: auto;
+        max-width: 100%;
+        margin-left: 0;
 	}
 	.small-circle,
 	.medium-circle,

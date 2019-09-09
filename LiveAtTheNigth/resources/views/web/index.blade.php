@@ -21,10 +21,9 @@
             </div>
         </div>
         <div class="cover">
-            <img src="./img/matebook.png" alt="matebook" />
+            <img src="./img/loveinthenigth.png" alt="matebook" />
         </div>
     </section>
-
     {{-- <div class="laptop-select">
         <img src="./img/arrow-left.svg" alt="" />
         <img src="./img/dot.svg" alt="" />
@@ -33,9 +32,7 @@
         <img src="./img/arrow-right.svg" alt="" />
     </div> --}}
 
-    <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
-    <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
-    <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+    
 </main>
 
 @endsection

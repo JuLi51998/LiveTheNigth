@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{asset('css/style.css')}}">
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet"/>
-		<link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./style.css" />
 		<title>LiveInTheNight</title>
 
         <script src="{{asset('js/jquery.js')}}"></script>
@@ -33,5 +33,8 @@
             </div>
         </header>
         @yield('content')
+        <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+        <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+        <img class="small-circle" src="./img/small-eclipse.svg" alt="" />
     </body>
 </html>
